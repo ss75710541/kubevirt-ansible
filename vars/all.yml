@@ -11,7 +11,7 @@ openshift_playbook_path: "{{ openshift_ansible_dir }}/{{ 'playbooks/byo/config.y
 version: 0.19.0
 image_pull_policy: IfNotPresent
 deploy_demo: true
-debug_use_emulation: true
+debug_use_emulation: false
 
 ### Roles ###
 storage_role: "storage-none"
